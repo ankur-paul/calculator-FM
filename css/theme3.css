@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(268, 75%, 9%);
+  color: hsl(52, 100%, 62%);
+}
+.theme-bar {
+  background: hsl(268, 71%, 12%);
+}
+.active-theme {
+  background-color: hsl(176, 100%, 44%);
+}
+
+.display-box {
+  background-color: hsl(268, 71%, 12%);
+  color: #fff;
+  caret-color: white;
+}
+
+.calc-keypad {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.calc-btn {
+  background-color: hsl(268, 47%, 21%);
+  color: hsl(52, 100%, 62%);
+  box-shadow: 0 0.5rem 0 0 hsl(290, 70%, 36%);
+}
+
+.calc-btn:hover {
+  background-color: hsla(268, 48%, 21%, 0.52);
+}
+.calc-btn--del,
+.calc-btn--reset {
+  color: white;
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 0 0.5rem 0 0 hsl(285, 91%, 52%);
+}
+.calc-btn--del:hover,
+.calc-btn--reset:hover {
+  background-color: hsl(281, 91%, 30%);
+}
+
+.calc-btn--equals {
+  color: hsl(198, 20%, 13%);
+  grid-column: 3/5;
+  background-color: hsl(176, 100%, 44%);
+  box-shadow: 0 0.5rem 0 0 hsl(177, 92%, 70%);
+}
+.calc-btn--equals:hover {
+  background-color: hsl(176, 89%, 51%);
+}

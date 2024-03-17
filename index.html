@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" id="defaultStyleSheet" />
+    <link rel="stylesheet" href="css/theme1.css" id="themeStylesheet" />
+
+    <title>Calculator app</title>
+  </head>
+  <body class="defaultTheme">
+    <div class="container">
+      <div class="calc">
+        <div class="calc-top-bar">
+          <h2 class="calc-title">AnkurCalc</h2>
+          <p class="label--theme" title="Click to change theme">theme</p>
+          <div class="theme-selector">
+            <div class="theme-bar">
+              <div class="theme-nums">
+                <p class="theme-num theme--1">1</p>
+                <p class="theme-num theme--2">2</p>
+                <p class="theme-num theme--3">3</p>
+              </div>
+              <div class="theme-circle theme-circle--1 active-theme"></div>
+              <div class="theme-circle theme-circle--2"></div>
+              <div class="theme-circle theme-circle--3"></div>
+            </div>
+          </div>
+        </div>
+
+        <form name="screen" class="screen-form">
+          <input class="display-box" placeholder="0" type="text" readonly />
+        </form>
+        <div class="calc-keypad">
+          <button class="calc-btn calc-btn--nums" value="7">7</button
+          ><button class="calc-btn calc-btn--nums" value="8">8</button
+          ><button class="calc-btn calc-btn--nums" value="9">9</button
+          ><button class="calc-btn calc-btn--del" value="del">del</button
+          ><button class="calc-btn calc-btn--nums" value="4">4</button
+          ><button class="calc-btn calc-btn--nums" value="5">5</button
+          ><button class="calc-btn calc-btn--nums" value="6">6</button
+          ><button class="calc-btn calc-btn--optr" value="+">+</button
+          ><button class="calc-btn calc-btn--nums" value="1">1</button
+          ><button class="calc-btn calc-btn--nums" value="2">2</button
+          ><button class="calc-btn calc-btn--nums" value="3">3</button
+          ><button class="calc-btn calc-btn--optr" value="-">-</button
+          ><button class="calc-btn calc-btn--nums" value=".">.</button
+          ><button class="calc-btn calc-btn--nums" value="0">0</button
+          ><button class="calc-btn calc-btn--optr" value="/">/</button
+          ><button class="calc-btn calc-btn--optr" value="x">x</button
+          ><button class="calc-btn calc-btn--reset" value="reset">reset</button
+          ><button class="calc-btn calc-btn--equals" value="=">=</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://linkedin.com/in/ankurpaul52/" target="_blank"
+          >Ankur Paul</a
+        >.
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
